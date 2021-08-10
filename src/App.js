@@ -9,15 +9,25 @@ let simpsons = [
     {name: 'Maggie', surname: 'Simpson', age: 1,info:'Ма́ргарет Эвелин «Мэ́гги» Си́мпсон (англ. Margaret Evelyn “Maggie” Simpson) — персонаж мультсериала «Симпсоны». Впервые появилась на телевидении в шоу Трейси Ульман, в короткометражке Good Night (англ.)русск. 19 апреля 1987 года. Мэгги была придумана и разработана карикатуристом Мэттом Грейнингом, пока он ждал встречи с Джеймсом Л. Бруксом. Названа в честь младшей сестры Грейнинга. После появления в шоу Трейси Ульман, через три года семья Симпсонов получила собственный сериал на телеканале Fox, дебют произошёл 17 декабря 1989 года.', photo: 'https://upload.wikimedia.org/wikipedia/ru/9/9d/Maggie_Simpson.png'},
 ];
 
-export default function App(){
-return(
-    <div className="simpsons">
-      <Simpson name ={simpsons[0].name} surname={simpsons[0].surname} age={simpsons[0].age} info={simpsons[0].info} photo={simpsons[0].photo} />
-        <Simpson name ={simpsons[1].name} surname={simpsons[1].surname} age={simpsons[1].age} info={simpsons[1].info} photo={simpsons[1].photo} />
-        <Simpson name ={simpsons[2].name} surname={simpsons[2].surname} age={simpsons[2].age} info={simpsons[2].info} photo={simpsons[2].photo} />
-        <Simpson name ={simpsons[3].name} surname={simpsons[3].surname} age={simpsons[3].age} info={simpsons[3].info} photo={simpsons[3].photo} />
-        <Simpson name ={simpsons[4].name} surname={simpsons[4].surname} age={simpsons[4].age} info={simpsons[4].info} photo={simpsons[4].photo} />
+export default function App() {
+    return (
+        <div className="simpsons">
+            <Simpson name={simpsons[0].name} surname={simpsons[0].surname} age={simpsons[0].age} info={simpsons[0].info}
+                     photo={simpsons[0].photo}/>
+            <Simpson name={simpsons[1].name} surname={simpsons[1].surname} age={simpsons[1].age} info={simpsons[1].info}
+                     photo={simpsons[1].photo}/>
+            <Simpson name={simpsons[2].name} surname={simpsons[2].surname} age={simpsons[2].age} info={simpsons[2].info}
+                     photo={simpsons[2].photo}/>
+            <Simpson name={simpsons[3].name} surname={simpsons[3].surname} age={simpsons[3].age} info={simpsons[3].info}
+                     photo={simpsons[3].photo}/>
+            <Simpson name={simpsons[4].name} surname={simpsons[4].surname} age={simpsons[4].age} info={simpsons[4].info}
+                     photo={simpsons[4].photo}/>
 
         </div>
-        );
-        }
+    );
+}
+
+
+
+
+// *
